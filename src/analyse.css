@@ -1,0 +1,66 @@
+/* ===== PAGE ANALYSE ===== */
+.analyse-container {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.analyse-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Grille des patientes */
+.patient-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+/* Carte patiente */
+.patient-card {
+  background-color: white;
+  border: 2px solid #928AAF;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 6px 15px rgba(146, 138, 175, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.patient-card:hover {
+  transform: translateY(-5px);
+}
+
+.patient-card h2 {
+  color: #928AAF;
+  margin-bottom: 10px;
+}
+
+.patient-card p {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.status {
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Bouton */
+.btn-analyse {
+  background-color: #928AAF;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}
+
+.btn-analyse:hover {
+  background-color: #7a7196;
+}
